@@ -6,7 +6,7 @@ type HeadInput = {
   title: string;
   description: string;
   path: string;
-  keywords?: string;
+  keywords?: string | undefined;
   type?: "website" | "article" | "product";
   image?: string;
   noindex?: boolean;
