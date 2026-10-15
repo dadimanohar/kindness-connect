@@ -32,7 +32,7 @@ export type PageContent = {
   title: string;
   h1: string;
   description: string;
-  keywords?: string;
+  keywords?: string | undefined;
   eyebrow?: string;
   answer: string;
   hero?: { image?: string; imageAlt?: string };
